@@ -49,5 +49,15 @@
   <ItemGroup>
     <None Include="App.config" />
   </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\BinarySearchArray\LinearDataStructure.csproj">
+      <Project>{9e305d7d-5a14-4aef-8ed9-2680a40e2a5d}</Project>
+      <Name>LinearDataStructure</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\TreeDataStructure\NonLinearDataStructure.csproj">
+      <Project>{a7201db7-0de3-4dee-bda3-52482fdb57a6}</Project>
+      <Name>NonLinearDataStructure</Name>
+    </ProjectReference>
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
