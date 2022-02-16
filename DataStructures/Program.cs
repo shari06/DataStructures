@@ -18,7 +18,7 @@ namespace DataStructures
             Console.WriteLine("Data Structures ");
             Console.WriteLine("============================");
 
-            Console.WriteLine("Please enter \n1 for  Linear Search \n2 for  Binary Search \n3 for  Insertion Sort ");
+            Console.WriteLine("Please enter \n1 for  Linear Search \n2 for  Binary Search \n3 for  Insertion Sort \n4 for  Selection Sort ");
             var key = Console.ReadLine();
             switch (key)
             {
@@ -48,6 +48,20 @@ namespace DataStructures
                     Console.WriteLine("\nPlease enter the array of integer value with comma seperated. ");
                     array = Console.ReadLine();
                     resultarray = insertionSort.InsertionSorting(Array.ConvertAll(array.TrimEnd(',').Split(','), int.Parse));
+                    PrintArry(resultarray);
+                    break;
+                case "4":
+                    SelectionSort selectionSort = new SelectionSort();
+                    Console.WriteLine("\nPlease enter the array of integer value with comma seperated. ");
+                    array = Console.ReadLine();
+                    resultarray = selectionSort.SelectionSorting(Array.ConvertAll(array.TrimEnd(',').Split(','), int.Parse));
+                    PrintArry(resultarray);
+                    break;
+                case "5":
+                    BubbleSort bubbleSort = new BubbleSort();
+                    Console.WriteLine("\nPlease enter the array of integer value with comma seperated. ");
+                    array = Console.ReadLine();
+                    resultarray = bubbleSort.BubbleSorting(Array.ConvertAll(array.TrimEnd(',').Split(','), int.Parse));
                     PrintArry(resultarray);
                     break;
             }

@@ -25,7 +25,18 @@ namespace LinearDataStructure.Sorting
         public int[] InsertionSorting(int[] arr)
         {
             // Sort the given array in to ascending order
-           
+            for (int i = 1; i < arr.Length; i++)
+            {
+                int bValue = arr[i];
+                int j = i - 1;
+
+                while (j >= 0 && arr[j] > bValue)
+                {
+                    arr[j + 1] = arr[j];
+                    j = j - 1;
+                }
+                arr[j + 1] = bValue;
+            }
             return arr;
         }
 
