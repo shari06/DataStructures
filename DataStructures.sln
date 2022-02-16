@@ -5,9 +5,9 @@ VisualStudioVersion = 17.0.32112.339
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DataStructures", "DataStructures\DataStructures.csproj", "{01EF6D4F-C809-4B7D-8311-82D74BBA1D19}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LinearDataStructure", "BinarySearchArray\LinearDataStructure.csproj", "{9E305D7D-5A14-4AEF-8ED9-2680A40E2A5D}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LinearDataStructure", "LinearDataStructure\LinearDataStructure.csproj", "{9E305D7D-5A14-4AEF-8ED9-2680A40E2A5D}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NonLinearDataStructure", "TreeDataStructure\NonLinearDataStructure.csproj", "{A7201DB7-0DE3-4DEE-BDA3-52482FDB57A6}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NonLinearDataStructure", "NonLinearDataStructure\NonLinearDataStructure.csproj", "{A7201DB7-0DE3-4DEE-BDA3-52482FDB57A6}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
