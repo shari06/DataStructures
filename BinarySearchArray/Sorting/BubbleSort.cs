@@ -19,7 +19,18 @@ namespace LinearDataStructure.Sorting
         public int[] BubbleSorting(int[] arr)
         {
             // Sort the given array in to ascending order
-            
+            for (int i = 0; i < arr.Length; i++)
+            {
+                for (int j = i + 1; j < arr.Length; j++)
+                {
+                    if (arr[i] > arr[j])
+                    {
+                        var temp = arr[i];
+                        arr[i] = arr[j];
+                        arr[j] = temp;
+                    }
+                }
+            }
             return arr;
         }
 
